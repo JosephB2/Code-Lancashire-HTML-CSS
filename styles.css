@@ -1,14 +1,42 @@
 body {
     background-color: teal;
+    margin: 0px;
 }
 h1 {
     color: whitesmoke;
-    font-family: Verdana;
+    font-size: 42px;
+    padding: 5px;
 }
 p {
     color: white;
-    font-family: Verdana;
 }
 a {
     color: orange;
+}
+h1, p, a {
+    font-family: Verdana;
+}
+/* centering a div: */
+#title, #content {
+    max-width: fit-content;
+    margin-inline: auto;
+}
+#title {
+    background-color: violet;
+}
+#main {
+    margin: 10px;
+    padding: 10px;
+}
+#navbar {
+    background-color: orange;
+    padding: 5px 10px;
+    margin: 0px;
+}
+#navitem {
+    padding: 0px 10px;
+    display: inline-block;
+}
+#navitem > a {
+    color: white;
 }
