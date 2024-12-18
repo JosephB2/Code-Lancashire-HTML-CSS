@@ -7,17 +7,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section id="navbar">
-        <div id="navitem">
-            <p>Navigate to: </p>
-        </div>
-        <div id="navitem">
-            <a href="index.html">Homepage</a>
-        </div>
-        <div id="navitem">
-            <a href="index.html">Projects</a>
-        </div>
-    </section>
+    
+    <?php include 'inc/header.php'; ?>
 
     <section id="main">
         <div id="title">
@@ -25,8 +16,9 @@
         </div>
         <div id="content">
             <p>Page not found!</p>
-            <a href="index.html">Back to home...</a>
+            <a href="index.php">Back to home...</a>
         </div>
     </section>
+
 </body>
 </html>

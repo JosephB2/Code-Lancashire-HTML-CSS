@@ -9,24 +9,8 @@
 </head>
 <body>
 
-    <section id="navbar">
-        <div id="navitem">
-            <p>Navigate to: </p>
-        </div>
-        <div id="navitem">
-            <a href="index.html">Homepage</a>
-        </div>
-        <div id="navitem">
-            <a href="error.html">Projects</a>
-        </div>
-    </section>
-
-    <section id="userbar">
-        <div id="useritem">
-            <a href="error.html">Sign in</a>
-        </div>
-    </section>
-
+    <?php include 'inc/header.php'; ?>
+    
     <section id="main">
         <div id="title">
             <h1>Welcome to my website!</h1>
