@@ -14,8 +14,8 @@
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 w-auto h-auto lg:h-screen gap-2 p-4">
 
             <div class="lg:panel sm:col-span-1 md:col-span-3 lg:col-span-1 h-auto"></div>
-            <div class="panel bordered md:col-span-3 bg-opacity-0 grid place-items-center min-h-0 h-auto" id="welcome">
-                <section class="grid place-items-center min-h-0 h-auto">
+            <div class="panel bordered md:col-span-3 bg-opacity-0 grid place-items-center min-h-0 h-auto">
+                <section class="grid place-items-center min-h-0 h-auto" id="welcome">
                     <h1>Welcome to my website!</h1>
                     <p>
                         <?php include "inc/lipsum.php" ?>
@@ -23,23 +23,29 @@
                 </section>
             </div>
             <div class="lg:panel col-span-1 md:col-span-3 lg:col-span-1 h-auto min-h-0"></div>
-            <div class="panel shaded bg-gradient-to-b from-green-500 to-teal-500" id="Projects">
-                <p>
-                    <?php include "inc/lipsum.php" ?>
-                </p>
+            <div class="panel shaded bg-gradient-to-b from-green-500 to-teal-500">
+                <section id="Projects">
+                    <p>
+                        <?php include "inc/lipsum.php" ?>
+                    </p>
+                </section>
             </div>
-            <div class="panel shaded col-span-1 bg-gradient-to-b from-violet-500 to-pink-500" id="Blogs">
-                <p>
-                    <a href="blogs.php">Lorem ipsum</a>
-                </p>
+            <div class="panel shaded col-span-1 bg-gradient-to-b from-violet-500 to-pink-500">
+                <section id="Blogs">
+                    <p>
+                        <a href="blogs.php">Lorem ipsum</a>
+                    </p>
+                </section>
             </div>
-            <div class="panel shaded col-span-1 bg-gradient-to-b from-red-400 to-orange-500" id="Gallery">
-                <p>
-                    <?php include "inc/lipsum.php" ?>
-                </p>
+            <div class="panel shaded col-span-1 bg-gradient-to-b from-red-500 to-orange-500">
+                <section id="Gallery">
+                    <p>
+                        <?php include "inc/lipsum.php" ?>
+                    </p>
+                </section>
             </div>
-            <div class="panel bordered shaded col-span-1 md:col-span-3 lg:col-span-2" id="contact">
-                <section class="grid place-items-center min-h-0 h-auto">
+            <div class="panel bordered shaded col-span-1 md:col-span-3 lg:col-span-2">
+                <section class="grid place-items-center min-h-0 h-auto" id="contact">
                     <h2>Where to find me:</h2>
                     <p>
                         <a target="_blank" href="mailto:josephbousfield99@gmail.com">Email</a>
