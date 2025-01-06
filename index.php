@@ -31,7 +31,7 @@
                 <section id="Projects">
                     <h3><a href="projects.php">Projects</a> 🗃️</h3>
                     <p>
-                        Here you'll find several programming endeavors as seen on GitHub (plus some insight into my private repos), as well as other random things I have deciedd to do. Usually about computers.
+                        Here you'll find several programming endeavors as seen on GitHub (plus some insight into my private repos), as well as other random things I have decided to do. Usually about computers.
                     </p>
                 </section>
             </div>
