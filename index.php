@@ -72,6 +72,6 @@
         </div>
     </div>
 
-    <script src="js/index.js"></script>
+    <script src="js/example.js"></script>
 </body>
 </html>
