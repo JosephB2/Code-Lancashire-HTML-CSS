@@ -45,7 +45,7 @@
             </div>
             <div class="panel shaded col-span-1 bg-gradient-to-b from-red-500 to-orange-500">
                 <section id="Gallery">
-                    <h3><a href="">The Gallery</a> 🎞️</h3>
+                    <h3><a href="gallery.php">The Gallery</a> 🎞️</h3>
                     <p>
                         I like to take photos sometimes. This is where you'll find them, sorted by collection.
                     </p>
